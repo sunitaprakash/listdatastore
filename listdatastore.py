@@ -18,16 +18,3 @@ print("all the contents of datastore usingos.walk")
 for path,dirs,files in os.walk(args.data_dir):
     for filename in files:
         print( os.path.join(path,filename))
-
-
-#print_directory_contents(args.data_dir)
-
-#def print_directory_contents(args.data_dir):
-#  for sChild in os.listdir(args.data_dir):
-#    sChildPath = os.path.join(args.data_dir,sChild)
-#    if os.path.isdir(sChildPath):
-#        print_directory_contents(sChildPath)
-#    else:
-#        print(sChildPath)
-#print("all the contents of datastore")
-#print_directory_contents(args.data_dir)
