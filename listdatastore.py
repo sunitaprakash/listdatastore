@@ -31,4 +31,3 @@ for path,dirs,files in os.walk(args.data_dir):
 #        print(sChildPath)
 #print("all the contents of datastore")
 #print_directory_contents(args.data_dir)
-~
